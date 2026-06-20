@@ -6,8 +6,8 @@ export default function DaashLogo() {
       title="daash 🗘"
       color="#596157"
       textColor="#F4F3EE"
-      textSize="text-3xl"
-      height="h-full"
+      textSize="text-5xl"
+      height="h-24"
       fontWeight="font-normal"
     />
   );

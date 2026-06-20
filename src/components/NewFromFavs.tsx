@@ -1,5 +1,3 @@
-import Subheader from "./Subheader";
-
 const favs = [
   { title: "Hard Fork", sub: "NYT", bg: "#1a3020", text: "white", subText: "#4ade80" },
   { title: "Ride", sub: "— DearMedia", bg: "#e8c040", text: "#1a1a1a", subText: "#92400e" },
@@ -8,9 +6,7 @@ const favs = [
 
 export default function NewFromFavs() {
   return (
-    <div>
-      <Subheader title="new from favs" color="#A3B49F" />
-      <div className="mt-3 flex gap-3">
+    <div className="flex gap-3">
         {favs.map((f, i) => (
           <div
             key={i}
@@ -21,7 +17,6 @@ export default function NewFromFavs() {
             <span className="text-[9px] leading-tight" style={{ color: f.subText }}>{f.sub}</span>
           </div>
         ))}
-      </div>
     </div>
   );
 }
