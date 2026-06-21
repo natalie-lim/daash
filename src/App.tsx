@@ -11,6 +11,7 @@ import JournalEntry from "./components/JournalEntry";
 import WeatherWidget from "./components/WeatherWidget";
 import GoogleCalendar from "./components/GoogleCalendar";
 
+
 function App() {
   return (
     <div className="flex flex-col items-start m-4 gap-6">
