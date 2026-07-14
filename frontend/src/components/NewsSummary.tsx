@@ -3,7 +3,7 @@ import Tags from "./Tags";
 export default function NewsSummary() {
   return (
     <div className="gap-2">
-      <div className="my-2 -flex flex-row gap-3 items-center justify-start">
+      <div className="my-2 flex flex-row gap-3 items-center justify-start">
         <Tags title="AI & ML" />
         <Tags title="Current Events" />
         <Tags title="Ice Skating" />

@@ -22,7 +22,7 @@ const earthTones: string[] = [
 function Tags({ title, color, height = "h-5", textSize = "text-xs", textColor = "#F4F3EE", fontWeight = "font-light" }: { title: React.ReactNode; color?: string; height?: string; textSize?: string; textColor?: string; fontWeight?: string }) {
   const resolvedColor = color ?? earthTones[Math.floor(Math.random() * earthTones.length)];
   return (
-    <p className={`${textSize} ${fontWeight} px-4 rounded-lg items-center flex  ${height}`} style={{ backgroundColor: resolvedColor, color: textColor }}>
+    <p className={`${textSize} ${fontWeight} px-4 rounded-lg w-fit ${height}`} style={{ backgroundColor: resolvedColor, color: textColor }}>
       {title}
     </p>
   );
